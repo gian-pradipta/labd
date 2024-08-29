@@ -1,0 +1,36 @@
+.red {
+    background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,1)),url("https://ti.akb.ac.id/images/IMG_3707.JPG");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+    h1 {
+        color: white;
+        font-size: 300%;
+        text-align: center;
+    }
+}
+
+.transisi {
+    background-color: black;
+    height: 50vh;
+}
+
+.judul {
+    // margin-top: -20vh;
+    position: sticky;
+    // background-color: rgba(0,0,0,0.5);
+    top: 0;
+    left: 0;
+    h1 {
+        text-align: center;
+    }
+    // margin-bottom:5vh ;
+}
+
+.lab-d {
+    background-image: linear-gradient(rgb(0,0,0), rgba(0,0,0,0.1));
+    // background-attachment: fixed;
+    height: 150vh;
+}
