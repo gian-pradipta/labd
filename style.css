@@ -6,6 +6,12 @@
   height: 100vh;
   padding-top: 110%;
 }
+@media only screen and (min-width: 768px) {
+  .welcome {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgb(0, 0, 0)), url(img/pintu-depan-landscape.jpg);
+    padding-top: 25%;
+  }
+}
 .welcome h1 {
   color: white;
   font-size: 300%;
@@ -40,4 +46,10 @@
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
+}
+@media only screen and (min-width: 768px) {
+  .lab-d {
+    background-image: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0.05)), url(img/switch-dan-router-landscape.jpg);
+    padding-top: 25%;
+  }
 }/*# sourceMappingURL=style.css.map */
