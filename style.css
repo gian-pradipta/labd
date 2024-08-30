@@ -1,5 +1,5 @@
 .welcome {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgb(0, 0, 0)), url("https://ti.akb.ac.id/images/IMG_3707.JPG");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url("img/pintu-depan.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -19,7 +19,7 @@
 
 .judul {
   position: sticky;
-  top: 0;
+  top: 15px;
   left: 0;
 }
 .judul h1 {
@@ -30,11 +30,14 @@
   margin: 0;
   padding: 0;
   height: 100%;
-  margin-top: -10vh;
+  margin-top: -9vh;
   text-shadow: 1px 1px 0 black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black; /* Shadow acts as a border */
 }
 
 .lab-d {
-  background-image: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0.1));
-  height: 150vh;
+  background-image: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0.05)), url("img/switch-dan-router.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
 }/*# sourceMappingURL=style.css.map */
