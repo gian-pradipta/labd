@@ -1,11 +1,12 @@
-.red {
+.welcome {
   background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgb(0, 0, 0)), url("https://ti.akb.ac.id/images/IMG_3707.JPG");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
+  padding-top: 110%;
 }
-.red h1 {
+.welcome h1 {
   color: white;
   font-size: 300%;
   text-align: center;
@@ -22,7 +23,15 @@
   left: 0;
 }
 .judul h1 {
+  color: white;
+  background-color: transparent;
+  font-size: 36pt;
   text-align: center;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  margin-top: -10vh;
+  text-shadow: 1px 1px 0 black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black; /* Shadow acts as a border */
 }
 
 .lab-d {

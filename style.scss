@@ -1,10 +1,10 @@
-.red {
+.welcome {
     background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,1)),url("https://ti.akb.ac.id/images/IMG_3707.JPG");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
-
+    padding-top: 110%;
     h1 {
         color: white;
         font-size: 300%;
@@ -18,15 +18,25 @@
 }
 
 .judul {
-    // margin-top: -20vh;
-    position: sticky;
-    // background-color: rgba(0,0,0,0.5);
+    position: sticky; 
     top: 0;
     left: 0;
+    // background-color: black;
     h1 {
+        color: white;
+        background-color: transparent;
+        font-size: 36pt;
         text-align: center;
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        margin-top: -10vh;
+        text-shadow: 
+        1px 1px 0 black, 
+        -1px -1px 0 black,
+        1px -1px 0 black,
+        -1px 1px 0 black; /* Shadow acts as a border */
     }
-    // margin-bottom:5vh ;
 }
 
 .lab-d {
